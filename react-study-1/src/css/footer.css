@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* footer */
+footer{
+    height:80px;
+    line-height:80px;
+    background:#222;
+    color:#fff;
+    text-align: center;
+}
