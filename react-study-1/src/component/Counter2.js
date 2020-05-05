@@ -8,19 +8,12 @@ function Counter2() {
   const minus = () => {
     setNumber((prevNumber) => prevNumber - 1);
   };
-
   return (
     <>
-      <div>
-        <h1>{number}</h1>
-        <button type="button" onClick={plus}>
-          {" "}
-          +1{" "}
-        </button>
-        <button type="button" onClick={minus}>
-          {" "}
-          -1{" "}
-        </button>
+      <div id="Counter2">
+        <h2>{number}</h2>
+        <button type="button" onClick={plus}></button>
+        <button type="button" onClick={minus}></button>
       </div>
     </>
   );
