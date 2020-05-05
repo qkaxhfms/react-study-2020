@@ -1,7 +1,7 @@
 import React from "react";
 
 function Mail(props) {
-  const { name, text } = props;
+  const { name, text } = props; // 비구조화 활당
   return (
     <>
       <div id="mail">
