@@ -9,6 +9,7 @@ import Condition from './component/Condition';
 import Input from './component/Input';
 import Counter from './component/Counter';
 import Counter2 from './component/Counter2';
+import Counter3 from './component/Counter3';
 import Content from './component/Content';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Condition isOn = {true}/>
       <Counter />
       <Counter2 />
+      <Counter3 />
       <Input />
       <Footer />
     </>
