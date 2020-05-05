@@ -13,12 +13,8 @@ function Counter3() {
     <>
       <div>
         <h1>{number}</h1>
-        <button type="button" onClick={plus}>
-          +1
-        </button>
-        <button type="button" onClick={minus}>
-          -1
-        </button>
+        <button type="button" onClick={plus}></button>
+        <button type="button" onClick={minus}></button>
       </div>
     </>
   );
