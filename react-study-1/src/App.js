@@ -8,6 +8,7 @@ import Hello from './component/Hello';
 import Condition from './component/Condition';
 import Input from './component/Input';
 import Counter from './component/Counter';
+import Counter2 from './component/Counter2';
 import Content from './component/Content';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Hello name="준성" friend="현민" one="1"/>
       <Condition isOn = {true}/>
       <Counter />
+      <Counter2 />
       <Input />
       <Footer />
     </>
