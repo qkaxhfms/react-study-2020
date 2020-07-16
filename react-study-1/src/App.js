@@ -11,6 +11,7 @@ import Input2 from "./component/Input2";
 import Counter from "./component/Counter";
 import Counter2 from "./component/Counter2";
 import Counter3 from "./component/Counter3";
+import Counter4 from "./component/Counter4";
 import Content from "./component/Content";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Counter />
       <Counter2 />
       <Counter3 />
+      <Counter4 />
       <Input />
       <Input2 />
       <Footer />
